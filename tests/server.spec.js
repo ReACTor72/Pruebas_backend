@@ -7,6 +7,8 @@ describe('GET / - Prueba de Humo del Servidor', () => {
   // Antes de todas las pruebas, nos aseguramos de que la DB de test esté conectada
   beforeAll(async () => {
     await sequelize.authenticate();
+
+    await sequelize.sync({ force: true }); // Esto recrea las tablas en la base de datos de prueba
   });
 
   // Después de todas las pruebas, cerramos la conexión a la DB para que Jest pueda salir limpiamente
