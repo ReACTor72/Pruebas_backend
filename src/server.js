@@ -58,6 +58,7 @@ app.use("/api/ingresos", ingresosRoutes); // Rutas de ingresos
 app.use("/api/usuarios", usuarioRoutes); // Rutas de ingresos
 app.use("/api/unidades", unidadRoutes); // Rutas de ingresos
 app.use("/api/login", loginRoutes);
+app.use("/api/empleados", empleadoRoutes); // Rutas de empleados
 // Iniciar el servidor
 
 

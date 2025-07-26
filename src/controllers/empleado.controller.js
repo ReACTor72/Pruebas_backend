@@ -3,24 +3,24 @@ import { Empleado } from "../models/Empleado.js"
 //listar registros
 export const listarEmpleados = async (req, res) => {
     try{
-        const clientes = await Empleado.findAll()
+        const empleados = await Empleado.findAll()
         res.status(200).json({
-            message: "Lista de Clientes",
+            message: "Lista de Empleados",
             ok: true,
             status: 200,
-            body: clientes,
+            body: empleados,
     });
     }
     
     catch(error){
-        return res.status(500).json({message: error.messaje});
+        return res.status(500).json({message: error.message});
    }   
 }
 
 //crear registro
 export const crearEmpleado = async (req, res) => {
     try{
-        const { nombre_cliente,
+        const {
             nombre,
             direccion,
             telefono,
@@ -29,7 +29,7 @@ export const crearEmpleado = async (req, res) => {
             estado,
             } = req.body
     
-        const crearCliente = await Empleado.create({
+        const crearEmpleado = await Empleado.create({
             nombre,
             direccion,
             telefono,
@@ -44,7 +44,7 @@ export const crearEmpleado = async (req, res) => {
         });
     }
     catch(error){
-        return res.status(500).json({message: error.messaje});
+        return res.status(500).json({message: error.message});
    }
 }
 
@@ -57,7 +57,7 @@ export const verEmpleado = async (req, res) => {
            res.status(200).json(empleado);
        }
        catch(error){
-            return res.status(500).json({message: error.messaje});
+            return res.status(500).json({message: error.message});
        }
 }
 
@@ -68,10 +68,15 @@ export const actualizarEmpleado = async (req, res) => {
         const empleado = await Empleado.findOne({
             where: {id},
         });
-        Empleado.set(req.body);
+        empleado.set(req.body);
         await empleado.save();
         
-        res.status(200).json(cliente);
+        res.status(200).json({
+            message: "Registro Actualizado",
+            ok: true,
+            status: 200,
+            body: empleado,
+        });
     }
     catch(error){
         return res.status(500).json({message: error.message});

@@ -9,7 +9,7 @@ export const getClientes = async (req, res) => {
     }
     
     catch(error){
-        return res.status(500).json({message: error.messaje});
+        return res.status(500).json({message: error.message});
    }   
 }
 
@@ -38,7 +38,7 @@ export const createCliente = async (req, res) => {
         });
     }
     catch(error){
-        return res.status(500).json({message: error.messaje});
+        return res.status(500).json({message: error.message});
    }
 }
 
@@ -51,7 +51,7 @@ export const getCliente = async (req, res) => {
            res.status(200).json( cliente);
        }
        catch(error){
-            return res.status(500).json({message: error.messaje});
+            return res.status(500).json({message: error.message});
        }
 }
 
@@ -83,16 +83,11 @@ export const getClienteCompras = async (req, res) => {
     const {id} = req.params
     try{
         const ventas = await Venta.findAll({
-            where: {cliente_id: id},
-        });      
-        res.status(200).json({
-            message: "Ventas del cliente",
-            ok: true,
-            status: 200,
-            body: ventas,
+            where: { cliente_id: id }
         });
+        res.status(200).json(ventas); // <-- Directamente el array de ventas
     }
     catch(error){
         return res.status(500).json({message: error.message});
-    }    
+    }
 };
