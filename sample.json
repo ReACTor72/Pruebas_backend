@@ -1,0 +1,202 @@
+[
+    {
+        "idProveedor": 1,
+        "nombre": "Mayorista Nacional de Ferretería",
+        "nombre_contacto": "Juan Pérez",
+        "direccion": "Avenida Industrial 123, Santa Cruz",
+        "telefono": "+591 332123456",
+        "celular": "+591 76543210",
+        "email": "juanperez@mayoristanacional.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 2,
+        "nombre": "Suministros para la Construcción",
+        "nombre_contacto": "María Rodríguez",
+        "direccion": "Zona Industrial, La Paz",
+        "telefono": "+591 222567890",
+        "celular": null,
+        "email": "mariarodriguez@suministros.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 3,
+        "nombre": "Importaciones y Exportaciones Ferreteras",
+        "nombre_contacto": "Pedro Gómez",
+        "direccion": "Calle Comercio Exterior 789, Cochabamba",
+        "telefono": "+591 444111222",
+        "celular": "+591 789456123",
+        "email": "pedrogomez@importex.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 4,
+        "nombre": "Materiales de Construcción El Constructor",
+        "nombre_contacto": "Ana Martínez",
+        "direccion": "Carretera a los Yungas 123, La Paz",
+        "telefono": "+591 222444555",
+        "celular": null,
+        "email": "anamartinez@elconstructor.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 5,
+        "nombre": "Distribuidora Nacional de Herramientas",
+        "nombre_contacto": "Luis García",
+        "direccion": "Avenida Industrial 987, Santa Cruz",
+        "telefono": "+591 332777888",
+        "celular": "+591 789012345",
+        "email": "luisgarcia@distribuidoranacional.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 6,
+        "nombre": "Materiales de la Construcción El Maestro",
+        "nombre_contacto": "Carlos Sánchez",
+        "direccion": "Avenida América 543, Cochabamba",
+        "telefono": "+591 444321098",
+        "celular": "+591 701234567",
+        "email": "carlossanchez@elmaestro.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 7,
+        "nombre": "Ferretería y Pinturas La Colorina",
+        "nombre_contacto": "Ana María Fernández",
+        "direccion": "Calle Sucre 654, Santa Cruz",
+        "telefono": "+591 332987654",
+        "celular": null,
+        "email": "anamariafernandez@lacolorina.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 8,
+        "nombre": "Mayorista de Herramientas El Artesano",
+        "nombre_contacto": "Pedro López",
+        "direccion": "Zona Industrial, La Paz",
+        "telefono": "+591 222123456",
+        "celular": "+591 712345678",
+        "email": "pedrolopez@elartesano.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 9,
+        "nombre": "Materiales para la Construcción Económicos",
+        "nombre_contacto": "María García",
+        "direccion": "Avenida Arce 789, Cochabamba",
+        "telefono": "+591 444567890",
+        "celular": null,
+        "email": "mariagarcia@economicos.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 10,
+        "nombre": "Ferretería y Maderería El Constructor",
+        "nombre_contacto": "Luis Pérez",
+        "direccion": "Calle Bolívar 987, Santa Cruz",
+        "telefono": "+591 332345678",
+        "celular": "+591 723456789",
+        "email": "luisperez@elconstructor.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 11,
+        "nombre": "Materiales de Construcción La Fortaleza",
+        "nombre_contacto": "Julia Morales",
+        "direccion": "Avenida Busch 123, Santa Cruz",
+        "telefono": "+591 332234567",
+        "celular": "+591 798765432",
+        "email": "juliamorales@lafortaleza.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 12,
+        "nombre": "Ferretería y Pinturas El Coloreado",
+        "nombre_contacto": "Carlos Castro",
+        "direccion": "Calle Ayacucho 456, La Paz",
+        "telefono": "+591 222876543",
+        "celular": null,
+        "email": "carloscastro@elcoloreado.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 13,
+        "nombre": "Mayorista de Herramientas El Maestro",
+        "nombre_contacto": "Ana Gutiérrez",
+        "direccion": "Zona Industrial, Cochabamba",
+        "telefono": "+591 444123456",
+        "celular": "+591 789012345",
+        "email": "anagutierrez@elmaestro.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 14,
+        "nombre": "Materiales para la Construcción El Constructor",
+        "nombre_contacto": "Pedro Fernández",
+        "direccion": "Avenida 6 de Agosto 789, Santa Cruz",
+        "telefono": "+591 332567890",
+        "celular": "+591 765432109",
+        "email": "pedrofernandez@elconstructor.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 15,
+        "nombre": "Ferretería y Maderería La Casa de la Madera",
+        "nombre_contacto": "María Rodríguez",
+        "direccion": "Calle Warnes 987, La Paz",
+        "telefono": "+591 222345678",
+        "celular": null,
+        "email": "mariarodriguez@lacasadela madera.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 16,
+        "nombre": "Materiales de Construcción El Gigante",
+        "nombre_contacto": "Marco Antonio Ramírez",
+        "direccion": "Avenida Petrolera 123, Santa Cruz",
+        "telefono": "+591 332456789",
+        "celular": "+591 789012345",
+        "email": "marcoantonio@elgigante.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 17,
+        "nombre": "Ferretería y Pinturas Colorín Colorado",
+        "nombre_contacto": "Laura Pérez",
+        "direccion": "Calle 16 de Julio 456, La Paz",
+        "telefono": "+591 222567890",
+        "celular": null,
+        "email": "lauraperez@colorincolorado.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 18,
+        "nombre": "Mayorista de Herramientas El Sastre",
+        "nombre_contacto": "David Sánchez",
+        "direccion": "Zona Industrial, Cochabamba",
+        "telefono": "+591 444123456",
+        "celular": "+591 777888999",
+        "email": "davidsanchez@elsastre.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 19,
+        "nombre": "Materiales para la Construcción La Económica",
+        "nombre_contacto": "Ana María Gutiérrez",
+        "direccion": "Avenida Blanco Galindo 789, Cochabamba",
+        "telefono": "+591 444987654",
+        "celular": null,
+        "email": "anamariagutierrez@laeconomica.com",
+        "estado": "Activo"
+    },
+    {
+        "idProveedor": 20,
+        "nombre": "Ferretería y Maderería El Carpintero",
+        "nombre_contacto": "Pedro López",
+        "direccion": "Calle Sucre 987, Santa Cruz",
+        "telefono": "+591 332345678",
+        "celular": "+591 765432109",
+        "email": "pedrolopez@elcarpintero.com",
+        "estado": "Activo"
+    }
+]
