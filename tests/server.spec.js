@@ -20,9 +20,6 @@ describe('GET / - Prueba de Humo del Servidor', () => {
     const response = await request(app).get('/'); // Usamos la 'app' importada
     expect(response.statusCode).toBe(200);
     expect(response.type).toBe('application/json');
-    // Asegúrate que tu ruta '/' realmente responde con este JSON.
-    // Si responde con "Servidor FERRETERIA URKUPIÑA" como texto plano, la aserción sería:
-    // expect(response.text).toBe("Servidor FERRETERIA URKUPIÑA");
     expect(response.body).toEqual("Servidor FERRETERIA URKUPIÑA");
   });
 });
