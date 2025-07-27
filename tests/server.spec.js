@@ -1,8 +1,8 @@
 import request from 'supertest';
 import app from '../src/server.js'; // Importamos la app, no 'server'
 import { sequelize } from "../src/database/db.js";
-
-describe('GET / - Prueba de Humo del Servidor', () => {
+          
+describe('\n+--------------------------------------+\n| GET / - Prueba de Humo del Servidor  |\n+--------------------------------------+', () => {
 
   // Antes de todas las pruebas, nos aseguramos de que la DB de test esté conectada
   beforeAll(async () => {
