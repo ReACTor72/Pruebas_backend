@@ -35,7 +35,7 @@ export async function verCategoria(req, res){
         const categoria= await Categoria.findOne({
             where:{id}
         });
-        res.status(201).json(categoria);
+        res.status(200).json(categoria);
     }catch(error){
         res.status(500).json({
             message:error.message,
