@@ -2,7 +2,7 @@ import request from 'supertest';
 import app from '../src/server.js'; 
 import { sequelize } from '../src/database/db.js'; 
 
-describe('\nPruebas para los endpoints de Categoria\n-------------', () => {
+describe('\nPruebas para los endpoints de Categoria\n---------------------------------------', () => {
     beforeAll(async () => {
         await sequelize.sync({ force: true });
     });
