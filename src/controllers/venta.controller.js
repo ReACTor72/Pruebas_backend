@@ -109,7 +109,7 @@ export const getVentaDetalles = async (req, res) => {
       return res.status(404).json({ message: "Venta no encontrada" });
     }
 
-    res.json({
+    res.status(200).json({
       id: venta.id,
       fechaVenta: venta.fechaVenta,
       cliente: venta.cliente,
@@ -142,22 +142,28 @@ export const getVenta = async (req, res) => {
 
 //actualizar registro
 export const updateVenta = async (req, res) => {
-    const { venta_id } = req.params
+    const { id } = req.params
     try {
         const venta = await Venta.findOne({
-            where: { venta_id },
+            where: { id }
         });
+        if (!venta) {
+        return res.status(404).json({
+            message: "Venta no encontrada",
+            ok: false,
+        });
+    }
         venta.set(req.body);
         await venta.save();
 
-        res.status(200).json({
+        res.status(201).json({
             message: "Registro Actualizado",
             ok: true,
-            status: 200,
+            status: 201,
             body: venta,
         });
     }
     catch (error) {
-        return res.status(500).json({ message: error.messaje });
+        return res.status(500).json({ message: error.message });
     }
 }
